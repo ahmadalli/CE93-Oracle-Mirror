@@ -5,7 +5,8 @@
     "description": "Mirror of Oracle documentation accessible from Iran",
     "permissions": [
         "webRequest",
-        "*://docs.oracle.com/"
+        "*://docs.oracle.com/",
+        "webRequestBlocking"
     ],
     "background": {
         "scripts": [ "background.js" ]
