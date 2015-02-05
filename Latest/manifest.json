@@ -1,0 +1,13 @@
+{
+    "name": "CE93 Oracle Mirror",
+    "version": "1.0.0.0",
+    "manifest_version": 2,
+    "description": "Mirror of Oracle documentation accessible from Iran",
+    "content_scripts": [
+        {
+            "all_frames": true,
+            "js": [ "background.js" ],
+            "matches": [ "http://*/*", "https://*/*" ],
+            "run_at": "document_start"
+        } ]
+}
