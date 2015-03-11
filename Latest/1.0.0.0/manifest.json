@@ -2,6 +2,8 @@
     "name": "CE93 Oracle Mirror",
     "version": "1.0.0.0",
     "manifest_version": 2,
+	"author": "alex-mercer and ahmadali shafiee",
+	"short_name": "CE93Oracle",
     "description": "Mirror of Oracle documentation accessible from Iran",
     "permissions": [
         "webRequest",
